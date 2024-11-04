@@ -12,8 +12,9 @@ import ExtensionMarketplaceContext, {
   ExtensionMarketplaceDetail,
 } from "@lichtblick/suite-base/context/ExtensionMarketplaceContext";
 
-const MARKETPLACE_URL =
-  "https://raw.githubusercontent.com/foxglove/studio-extension-marketplace/main/extensions.json";
+// const MARKETPLACE_URL =
+//   "https://raw.githubusercontent.com/foxglove/studio-extension-marketplace/main/extensions.json";
+const MARKETPLACE_URL = "http://1.94.246.226:8088/extensions.json";
 
 export default function ExtensionMarketplaceProvider({
   children,
