@@ -68,10 +68,13 @@ export function ExtensionDetails({ extension, onClose, installed }: Props): Reac
 
   const install = useCallback(async () => {
     if (!isDesktopApp()) {
-      enqueueSnackbar("Download the desktop app to use marketplace extensions.", {
-        variant: "error",
+      // enqueueSnackbar("Download the desktop app to use marketplace extensions.", {
+      //   variant: "error",
+      // });
+      enqueueSnackbar("Download the test marketplace extensions form HUAWEI Cloud.", {
+        variant: "info",
       });
-      return;
+      // return;
     }
 
     const url = extension.foxe;
